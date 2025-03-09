@@ -46,7 +46,7 @@ pip install virtualenv
 **Step 1:** Clone the LambdaTest’s pytest-selenium-sample repository and navigate to the code directory as shown below:
 ```bash
 git clone https://github.com/LambdaTest/pytest-selenium-sample
-cd pytest-selenium-sample
+cd seleniumtest
 ```
 **Step 2:** Create a virtual environment in your project folder the environment name is arbitrary.
 ```bash

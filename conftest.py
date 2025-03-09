@@ -15,8 +15,8 @@ def driver(request):
     build = environ.get('BUILD', "Sample PY Build Chrome")
 
     tunnel_id = environ.get('TUNNEL', False)
-    username = environ.get('LT_USERNAME', None)
-    access_key = environ.get('LT_ACCESS_KEY', None)
+    username ="vidya_sehgal"
+    access_key ="iLSg7GQ9o7VmQY2klGpwM5FTrB8LGfyId3c3pZpZE67922SbBC"
 
     selenium_endpoint = "http://{}:{}@hub.lambdatest.com/wd/hub".format(username, access_key)
     chrome_options = webdriver.ChromeOptions()
